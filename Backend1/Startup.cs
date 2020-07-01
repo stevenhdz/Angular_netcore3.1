@@ -28,7 +28,7 @@ namespace Backend1
         {
             //services add
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("conexion")));
+            options.UseSqlite(Configuration.GetConnectionString("conexion")));
 
             services.AddCors(options =>
             {

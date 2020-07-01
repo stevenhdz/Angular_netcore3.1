@@ -20,7 +20,7 @@ namespace Backend1
         {
             if (  !optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-3DUHIB4\\SQLEXPRESS;Initial Catalog=Pruebas;Integrated Security=True;MultipleActiveResultSets=True");
+                optionsBuilder.UseSqlite("Data Source=mydb2.db");
             }
             
         }

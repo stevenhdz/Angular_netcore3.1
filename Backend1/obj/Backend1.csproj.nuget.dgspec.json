@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Angular_netcore3.1\\Backend1\\Backend1.csproj": {}
+    "/Users/alexanderjimenez/Desktop/Angular_netcore3.1/Backend1/Backend1.csproj": {}
   },
   "projects": {
-    "D:\\Angular_netcore3.1\\Backend1\\Backend1.csproj": {
+    "/Users/alexanderjimenez/Desktop/Angular_netcore3.1/Backend1/Backend1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Angular_netcore3.1\\Backend1\\Backend1.csproj",
+        "projectUniqueName": "/Users/alexanderjimenez/Desktop/Angular_netcore3.1/Backend1/Backend1.csproj",
         "projectName": "Backend1",
-        "projectPath": "D:\\Angular_netcore3.1\\Backend1\\Backend1.csproj",
-        "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-        "outputPath": "D:\\Angular_netcore3.1\\Backend1\\obj\\",
+        "projectPath": "/Users/alexanderjimenez/Desktop/Angular_netcore3.1/Backend1/Backend1.csproj",
+        "packagesPath": "/Users/alexanderjimenez/.nuget/packages/",
+        "outputPath": "/Users/alexanderjimenez/Desktop/Angular_netcore3.1/Backend1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alexanderjimenez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
     }

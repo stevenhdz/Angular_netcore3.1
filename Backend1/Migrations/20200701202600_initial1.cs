@@ -12,7 +12,7 @@ namespace Backend1.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        .Annotation("Sqlite:Autoincrement", true),
                     Titulo = table.Column<string>(nullable: false),
                     Creador = table.Column<string>(nullable: false),
                     Texto = table.Column<string>(nullable: false),

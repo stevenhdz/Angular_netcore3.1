@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{7F3A2CCD-F8CA-4C96-9A57-247FE0D6C610}|Backend1">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/comentarios.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="27" Column="1" />
+      <File FileName="Program.cs" Line="9" Column="1" />
       <File FileName="Models/comentarios.cs" Line="20" Column="2" />
+      <File FileName="Controllers/comentarioController.cs" Line="1" Column="1" />
+      <File FileName="ApplicationDbContext.cs" Line="23" Column="63" />
+      <File FileName="Migrations/20200701202600_initial1.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,8 +16,10 @@
                 <Node name="FrameworkReferences" expanded="True" />
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Controllers" expanded="True" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
