@@ -1,1 +1,2 @@
-# Angular_netcore3.1
+# Angular-con-net-core
+ Registro comentario de peliculas.
