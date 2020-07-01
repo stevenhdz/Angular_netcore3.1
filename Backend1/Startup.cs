@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,6 +26,17 @@ namespace Backend1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services add
+            services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("conexion")));
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin()
+                                                                  .AllowAnyHeader()
+                                                                  .AllowAnyMethod());
+            });
+
             services.AddControllers();
         }
 
@@ -35,6 +47,8 @@ namespace Backend1
             {
                 app.UseDeveloperExceptionPage();
             }
+            //add
+            app.UseCors("CorsPolicy");
 
             app.UseHttpsRedirection();
 
